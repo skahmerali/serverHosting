@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get('/user', (req, res) => {
+app.get('/', (req, res) => {
     res.send("We are connecting with web server...!")
 });
 
