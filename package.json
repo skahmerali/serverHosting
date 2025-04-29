@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "vercel": "^41.6.2"
   }
 }
