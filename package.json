@@ -4,7 +4,8 @@
   "main": "Server.js",
   "scripts": {
     "start": "nodemon Server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify deploy --prod"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,11 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
+    "netlify-cli": "^20.1.1",
+    "netlify-lambda": "^2.0.16",
     "nodemon": "^3.1.10",
     "parse": "^6.1.1",
+    "serverless-http": "^3.2.0",
     "vercel": "^41.6.2"
   }
 }
